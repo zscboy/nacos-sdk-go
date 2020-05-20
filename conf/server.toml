@@ -1,0 +1,9 @@
+[server]
+ ip = "localhost"
+ port = 8848
+ contentPath = "/nacos"
+
+[[configs]]
+ dataid = "nginx.conf"
+ group = "DEFAULT_GROUP"
+ configFilePath = "./conf/abc.toml"

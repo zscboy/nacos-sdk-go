@@ -91,7 +91,7 @@ func main() {
 				if err != nil {
 					panic(err)
 				}
-				fmt.Println("config changed group:" + group + ", dataId:" + dataId)
+				fmt.Println("config changed group:" + group + ", dataId:" + dataId + ", data:" + data)
 				// fmt.Println("config changed group:" + group + ", dataId:" + dataId + ", data:" + data + " configFilePath:" + configFilePath)
 			},
 		})
